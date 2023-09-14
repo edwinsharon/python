@@ -1,0 +1,18 @@
+# t=(1,2,3.5,"abc",3.5)
+# t2=(8,9,10)
+# t3=t+t2
+# print(t3)
+# l=list(t)
+# l.append(100)
+# print(l)
+# tup=tuple(l)
+# print(tup)
+tup=("cat","dog","goat")
+print(len(tup))
+t1=("apple","orange")
+tup+=t1
+print(tup)
+l=list(tup)
+l.append(100)
+print(l)
+l.clear()
