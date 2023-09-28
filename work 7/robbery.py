@@ -26,12 +26,10 @@
 # # for i in range(5):
 # #     for j in range 
 mylist=[7,12,14,8,4]
-for i in range(0,5,2):
-    b=mylist[i]+mylist[i+2]
-    c=mylist[i+2]+mylist[i+4]
-if(b>c):
-    print(b)
-else:
-    print(c)
+b=[]
+for i in range(0,3):
+    b[i]=mylist[i]+mylist[i+2]
+    # c=mylist[i+2]+mylist[i+4]
+print(max(b))
          
 
