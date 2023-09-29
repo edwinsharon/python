@@ -11,6 +11,7 @@ for i in range(b):
         f=f+1
     elif(a[i]==a.islower()):
         g=g+1
+        
     elif(a[i]==a.isupper()):
         h=h+1
 if(d>0 and e>0 and f>0 and g>0 and h>0):

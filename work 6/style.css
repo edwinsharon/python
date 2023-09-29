@@ -1,9 +1,19 @@
-.c1{
-    background-color: deepskyblue;
+a.one{
+    color: black;
+    font-size: 16px;
+   
 }
-.i1{
-    width: 35px;
+.two{
+    margin-left: 400px;
 }
-.g1{
-    background-image:url(images/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise.jpg);
+.three{
+    background-image:url("images/banner-01.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
 }
+.four{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Roboto',sans-serif !important;
+    text-align: center;
