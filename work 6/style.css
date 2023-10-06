@@ -7,13 +7,47 @@ a.one{
     margin-left: 400px;
 }
 .three{
-    background-image:url("images/banner-01.jpg");
+    background-image:url("images/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height: 600px;
 }
 .four{
     color: aliceblue;
-    font-size: 50px;
-    font-family: 'Roboto',sans-serif !important;
+    font-size: 55px;
+    font-family: 'Fuggles', cursive;
     text-align: center;
+    margin-top: 270px;
+    
+}
+.a1{
+    color: black;
+    font-size:50px ;
+    text-align: center;
+    font-family: 'Playfair Display', serif !important;
+}
+.a2{
+    height: 250px;
+}
+.a3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    
+}
+.a4{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(205, 225, 241);
+    padding: 10px;
+    
+}
+.a5{
+    border-right: 1px solid rgb(4, 8, 8);
+  text-align: center;
+
+}
+.b2{
+    background-color: rgb(187, 214, 238);
+}
