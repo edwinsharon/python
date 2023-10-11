@@ -14,6 +14,6 @@ for j in range(d):
     e=e*10+f
 h=str(e+c)
 g=str(h)
-print(type(g),g) 
+print(type(g),g)
 
 
