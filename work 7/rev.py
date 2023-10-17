@@ -78,7 +78,56 @@
 # print(len(fruits))
 
 
-fruits=['apple','banana','cherry']
-fruits.remove("banana")
-fruits.insert(1,'grapefruit')
-print(fruits)
+# fruits=['apple','banana','cherry']
+# fruits.remove("banana")
+# fruits.insert(1,'grapefruit')
+# print(fruits)
+
+
+# a=int(input("enter the bill amount"))
+# if a>100:
+#     c=a/10
+#     b=a-c
+#     print("the discounted bill is:" ,b)
+# elif a>50 and a<100:
+#     c=a/20
+#     b=a-c
+#     print("the discounted amount is:",b)   
+# else:
+#     print("no discount")    
+
+
+
+# a=int(input("enter the year"))
+# if a%4==0:
+#     print(a,"is a leap year")
+# else:
+#     print("it is not a leap year.")
+
+# a=(int(input("""enter your choice
+#              1. celcius to farenheit
+#              2. farenheit to celcius""")))
+# b=(int(input("enter the temperatre")))
+# if a==1:
+#     c=a*9
+#     c=c/5
+#     c=c+32
+#     print(c,'farenheit')
+# elif a==2:
+#     c=a-32
+#     c=c*5
+#     c=c/9
+#     print(c,"celcius")
+# else:
+#     print("wrong choice")    
+
+
+
+secret=25
+g=int(input("enter a number between1-100"))
+if g>25:
+    print("to high")
+elif g<25:
+    print("to low")  
+else:
+    print("correct")      
