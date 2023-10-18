@@ -123,11 +123,104 @@
 
 
 
-secret=25
-g=int(input("enter a number between1-100"))
-if g>25:
-    print("to high")
-elif g<25:
-    print("to low")  
-else:
-    print("correct")      
+# secret=25
+# g=int(input("enter a number between1-100"))
+# if g>25:
+#     print("to high")
+# elif g<25:
+#     print("to low")  
+# else:
+#     print("correct")    
+
+
+# mark=int(input("enter your mark"))
+# if mark>=90 and mark<100:
+#     print("A grade")
+# elif mark>=80 and mark<90:
+#     print("B grade")
+# elif mark>=70 and mark<80:
+#     print("C grade")
+# elif mark>=60 and mark<70:
+#     print("D grade")   
+# elif mark<59:
+#     print("F grade")         
+        
+
+
+# a=int(input("enter the first number"))
+# b=int(input("enter the second number"))
+# c=input("enter the character")
+# if c=='+':
+#     d=a+b
+#     print("the sum is",d)
+# elif c=='-':
+#     d=a-b
+#     print("the difference is ",d)
+# elif c=='*':
+#     d=a*b
+#     print("the product is",d)  
+# elif c=='/':
+#     d=a/b
+#     print("the quotient is",d)
+# else:
+#     print("character inappropriate")        
+
+
+
+# mark=int(input("enter your age"))
+# if mark>=0 and mark<=2:
+#     print("infant")
+# elif mark>=3 and mark<12:
+#     print("child")
+# elif mark>=13 and mark<19:
+#     print("teenager")
+# elif mark>=20 and mark<64:
+#     print("adult")   
+# elif mark>64:
+#     print("senior") 
+
+
+# weight=float(input("enter your weight in kg"))
+# height=float(input("enter your height in meters"))
+# bmi=(height*height)/weight
+# if bmi<=18.5:
+#     print("underweight")
+# elif bmi>18.5 and bmi<=24.9:
+#     print("normal weight")
+# elif bmi>=25 and bmi<=29.9:
+#     print("overweight")
+# elif bmi>=30:
+#     print("obeisity")    
+
+
+
+
+# a=int(input("enter the first number"))
+# b=int(input("enter the second number"))
+# c=int(input("enter the third number"))
+# if a>b and a>c:
+#     print(a,"is greater")
+# elif b>c and b>a:
+#     print(b,"is greater")    
+# elif c>a and c>b:
+#     print(c,"is greater")    
+
+
+# a=int(input("enter the number"))
+# if a==1:
+#     print("sunday")
+# elif a==2:
+#     print("monday")
+# elif a==3:
+#     print("tuesday")
+# elif a==4:
+#     print("wednesday")
+# elif a==5:
+#     print("thursday")
+# elif a==6:
+#     print("friday")
+# elif a==7:
+#     print("saturday")                        
+
+
+
