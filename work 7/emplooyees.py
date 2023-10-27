@@ -25,12 +25,23 @@ while choice=='y'or choice=='Y':
     elif option==2:
         print(bank)
     elif option==3:
-                    print("""
+     choice1=input("""
 1)deposit
 2)withdraw
 enter your choice                          
                                     
 
 """)
+     if(choice1==1):
+           deposit=int(input('enter the amount'))
+           new_customer["balance"]+=deposit
+     elif(choice1==2):
+           withdraw=int(input("enter the amount"))
+           if new_customer["balance"]<withdraw:
+                  print("not sufficent amount")       
+           else:
+                  new_customer["balance"]-=deposit
+     
+
                     
-           if
+       
